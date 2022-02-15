@@ -29,7 +29,7 @@
 <div class="header">
     <table>
         <td>
-        <a class="main_title">Photopeach photo viewer</a>
+        <a href="https://photopeach.com/" class="main_title">Photopeach photo viewer</a>
         </td>
         <tr>
             <p class="main_title creator"><?php echo $authorname; ?></p>
@@ -106,6 +106,7 @@ document.addEventListener('contextmenu', event => event.preventDefault());
         color: var(--ultra-white-blue);
         font-family: BauhauSTD;
         font-size: 1.8rem;
+        text-decoration: none;
     }
     .creator {
         position: relative;
