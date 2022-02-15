@@ -1,6 +1,6 @@
 <?php 
     $quitar = '(https://photopeach.com/album/)';
-    $cadena = $_POST["url_link"];
+    $cadena = $_GET["url_link"];
     $albumid = preg_replace($quitar, '', $cadena);
 
     if ($cadena == ''){
